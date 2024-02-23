@@ -64,7 +64,8 @@ ul{
 
 .nav-appointment-btn{
     height: 45px;
-    padding: 0px 20px;
+    padding: 5px 20px;
+    margin: 0 5px;
     border-radius: 4px;
     background-color: #014dd5;
     color: white;
@@ -688,7 +689,7 @@ ul{
 /*=-----=-=-testimonials*/
 #testimonials{
     background-color: #f5f7fb;
-    padding: 50px;
+    padding: 80px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -732,7 +733,7 @@ ul{
     max-height: 450px;
     object-fit: contain;
     object-position: center;
-    filter: drop-shadow(10px 10px 10px);
+    box-shadow: -10px 10px 20px rgb(142, 182, 252);
 }
 .testimonials-box-container{
     margin-top: 50px;
